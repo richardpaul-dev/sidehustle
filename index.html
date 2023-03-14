@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML forms</title>
+    <link rel="stylesheet" src="CSS"
+  </head>
+  <body>
+    <h1>Fill in your Biodata<h1>
+      <form action="#">
+        <fieldset>
+          <legend>Personal Details</legend>
+          <p>
+            <label>First Name: <input type="firstname" name="firstName" required maxlength="30"/></label>
+          </p>
+          <p>
+            <label>Last Name: <input "lastName"name="lastname" required maxlength="30"/></label>
+          </p>
+          <p>
+            Gender: 
+            <label><input type="radio" name="gender"value="male"/>Male</label>
+            <label><input type="radio" name="gender"value="Female"/>Female</label>
+          </p>
+          <p>
+            <label>Email Address: <input type="email"name="email"placeholder="email" required maxlength="30"/></label>
+          </p>
+          <p>
+            <label>Password: <input type="password" name="password"/></label>
+          </p>
+          <p>
+            <button type="submit">Submit</button>
+         </p>
+        </fieldset>
+      </form>
+      </body>
+      </html>
